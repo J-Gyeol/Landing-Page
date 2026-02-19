@@ -239,18 +239,16 @@
         margin-bottom: 109px;
     }
 
+    .info-title {
+        animation-delay: 0.5s;
+    }
+
     .info-head-title {
         margin-bottom: 9px;
-        animation-delay: 0.5s;
     }
 
     .info-head-subtitle {
         margin-bottom: 21px;
-        animation-delay: 1s;
-    }
-
-    .info-head-desc {
-        animation-delay: 1.5s;
     }
 
     .info-main {
@@ -265,7 +263,7 @@
     }
 
     .info-main-text {
-        animation-delay: 1.5s;
+        animation-delay: 1.2s;
     }
 
     .info-main-ul {
@@ -428,12 +426,16 @@
     .equip-title-right {
         font-size: 20px;
         text-align: right;
+        animation-delay: 0.5s;
     }
 
     .equip-content-left,
     .equip-content-right {
         width: 20px;
         height: 40px;
+    }
+    .equip-content {
+        animation-delay: 1s;
     }
 
     .equip-cont-textbox {
@@ -468,13 +470,13 @@
     }
 
     .swiper-button-prev.equip-content-left {
-        left: 10%;
+        left: 12%;
         top: 60%;
         z-index: 100;
     }
 
     .swiper-button-next.equip-content-right {
-        right: 10%;
+        right: 12%;
         top: 60%;
         z-index: 100;
     }
@@ -532,6 +534,7 @@
     .equip-cont.swiper-slide-prev {
         /* height: 90%; */
         /* margin-top: 21.5px; */
+        /* transition: weight 1s ease-in-out; */
         scale: 0.9;
     }
 
@@ -610,6 +613,10 @@
         filter: brightness(50%);
     }
 
+    .surgeon-content {
+        animation-delay: 0.7s;
+    }
+
     .surgeon-content p {
         font-size: 20px;
         text-align: center;
@@ -682,6 +689,7 @@
         gap: 20px;
         padding-top: 100px;
         padding-bottom: 100px;
+        animation-delay: 1s;
     }
 
     .review-box01,
@@ -782,6 +790,7 @@
         gap: 10%;
         padding-top: 100px;
         padding-bottom: 100px;
+        animation-delay: 0.5s;
     }
 
     .contact-info {
@@ -932,6 +941,19 @@
         /* hero section  */
         .hero {
             padding: 0;
+        }
+
+        /* equip section  */
+        .swiper-button-prev.equip-content-left {
+            left: 6%;
+            top: 60%;
+            z-index: 100;
+        }
+
+        .swiper-button-next.equip-content-right {
+            right: 6%;
+            top: 60%;
+            z-index: 100;
         }
 
         /* surgeon section  */
@@ -1412,6 +1434,7 @@
             width: 100%;
             max-width: 1024px;
             padding: 100px 0 80px;
+            animation-delay: 1.3s;
         }
 
         .review-title-tb {
@@ -1556,11 +1579,11 @@
         }
 
         .subtitle {
-            font-size: 16px;
+            font-size: 22px;
         }
 
         .desc {
-            font-size: 16px;
+            font-size: 18px;
             letter-spacing: -0.5px;
         }
 
@@ -1610,17 +1633,17 @@
         }
 
         .solution-list-subtitle {
-            font-size: 18px;
+            font-size: 22px;
         }
 
         .solution-list-p {
             line-height: 130%;
-            font-size: 16px;
+            font-size: 18px;
             letter-spacing: -0.5px;
         }
 
         .solution-list-ontitle {
-            font-size: 20px;
+            font-size: 22px;
         }
 
         .solution-on {
@@ -1641,11 +1664,11 @@
         }
 
         .equip-cont-text {
-            font-size: 14px;
+            font-size: 18px;
         }
 
         .equip-cont-title {
-            font-size: 20px;
+            font-size: 22px;
             line-height: 0.8;
             margin-bottom: 8px;
         }
@@ -1678,12 +1701,12 @@
         }
 
         .surgeon-content p {
-            font-size: 12px;
+            font-size: 16px;
             margin-top: 14px;
         }
 
         .surgeon-content span {
-            font-size: 14px;
+            font-size: 18px;
         }
 
         .surgeon-cont.swiper-slide-next,
@@ -1771,6 +1794,10 @@
         }
     }
 
+    @media (max-width: 694px) {
+        .rv-none { display: none; }
+    }
+
     @media (max-width: 592px)
     /* nav */
         {
@@ -1785,12 +1812,14 @@
         }
 
         .review-wrap .desc h3 span {
-            font-size: 14px;
+            font-size: 16px;
         }
 
         .review-wrap {
             height: 18rem;
         }
+
+        .rv-none { display: block; }
 
         /* contact section  */
         .contact-logo {
@@ -1806,11 +1835,11 @@
         }
 
         .subtitle {
-            font-size: 14px;
+            font-size: 18px;
         }
 
         .desc {
-            font-size: 14px;
+            font-size: 16px;
             letter-spacing: -0.5px;
         }
 
@@ -1884,11 +1913,11 @@
 
         /* solution section  */
         .solution-list-ontitle {
-            font-size: 16px;
+            font-size: 18px;
         }
 
         .solution-on .solution-list-ontitle {
-            font-size: 20px;
+            font-size: 22px;
             line-height: 16px;
             margin-bottom: 10px;
         }
@@ -1920,7 +1949,7 @@
 
         .solution-list-subtitle {
             margin-bottom: 10px;
-            font-size: 14px;
+            font-size: 18px;
         }
 
         .solution-list-p {
@@ -1930,12 +1959,12 @@
         }
 
         .solution-list-ontitle>span {
-            font-size: 11px;
+            font-size: 16px;
             letter-spacing: -0.5px;
         }
 
         .solution-on .solution-list-ontitle>span {
-            font-size: 11px;
+            font-size: 16px;
             letter-spacing: -0.5px;
         }
 
@@ -1971,7 +2000,7 @@
         }
 
         .equip-cont-title {
-            font-size: 18px;
+            font-size: 22px;
             line-height: 0.8;
             margin-bottom: 8px;
         }
@@ -1981,7 +2010,7 @@
         }
 
         .equip-cont-text {
-            font-size: 14px;
+            font-size: 16px;
         }
 
         .swiper-button-prev.equip-content-left,
