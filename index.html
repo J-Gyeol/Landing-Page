@@ -11,7 +11,7 @@
     <script src="./asset/js/jquery.min.js"></script>
     <script src="./asset/js/jquery.aniview.js"></script>
     <link rel="stylesheet" href="./asset/css/reset.min.css">
-    <link rel="stylesheet" href="./asset/css/style2.css">
+    <link rel="stylesheet" href="./asset/css/style.css">
 </head>
 
 <body>
@@ -76,7 +76,8 @@
         <section class="info">
             <div class="container info-box">
                 <div class="info-head">
-                    <img src="./asset/images/info-bar.png" alt="info-bar" class="aniview" data-av-animation="fadeInDown">
+                    <img src="./asset/images/info-bar.png" alt="info-bar" class="aniview"
+                        data-av-animation="fadeInDown">
                     <div class="info-title aniview" data-av-animation="fadeInUp">
                         <h3 class="title info-head-title">이젠신경외과</h3>
                         <div class="subtitle info-head-subtitle">
@@ -662,6 +663,8 @@
 
     <script>
         $(function () {
+            $(".lumbar").addClass("solution-on").find(".solution-tab-body").show();
+
             $(".solution-list-ontitle").click(function () {
                 // 1. 클릭한 h3(타이틀)의 바로 위 부모인 .solution-off를 찾습니다.
                 // (ex: 내가 lumbar를 클릭했으면 lumbar 클래스가 있는 div가 선택됨)
