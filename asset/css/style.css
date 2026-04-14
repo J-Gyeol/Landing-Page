@@ -155,7 +155,7 @@
     .hero-box {
         position: relative;
         height: 100vh;
-        /* background-image: url("../images/hero.png"); */
+        /* background-image: url("../images/hero.webp"); */
         padding-top: 247px;
         padding-bottom: 338px;
         padding-left: 50px;
@@ -177,15 +177,15 @@
     }
 
     .hero-box01::before {
-        background-image: url("../images/hero_01.png");
+        background-image: url("../images/hero_01.webp");
     }
 
     .hero-box02::before {
-        background-image: url("../images/hero_02.png");
+        background-image: url("../images/hero_02.webp");
     }
 
     .hero-box03::before {
-        background-image: url("../images/hero_03.png");
+        background-image: url("../images/hero_03.webp");
     }
 
     .hero-box-cont {
@@ -282,7 +282,7 @@
 
     /* solution  */
     .solution-box {
-        background-image: url("../images/solution.png");
+        background-image: url("../images/solution.webp");
         height: auto;
         padding-top: 112px;
         padding-bottom: 112px;
@@ -385,7 +385,7 @@
     }
 
     .solution-lumbar-img {
-        background-image: url("../images/solution-lumbar.png");
+        background-image: url("../images/solution-lumbar.webp");
     }
 
     .solution-neck-img {
@@ -749,23 +749,23 @@
 
     .review-01 {
         height: 455px;
-        background-image: url("../images/review-01.png");
+        background-image: url("../images/review-01.webp");
     }
 
     .review-02 {
         height: calc((100% - 20px) / 2);
         margin-bottom: 20px;
-        background-image: url("../images/review-02.png");
+        background-image: url("../images/review-02.webp");
     }
 
     .review-03 {
         height: calc((100% - 20px) / 2);
-        background-image: url("../images/review-03.png");
+        background-image: url("../images/review-03.webp");
     }
 
     .review-04 {
         height: 455px;
-        background-image: url("../images/review-04.png");
+        background-image: url("../images/review-04.webp");
     }
 
     .review-caution {
@@ -1200,7 +1200,7 @@
 
         .hero-box {
             height: 100%;
-            background-image: url("../images/hero.png");
+            background-image: url("../images/hero.webp");
             padding-top: 180px;
             padding-bottom: 510px;
         }
@@ -1266,7 +1266,7 @@
 
         /* solution section  */
         .solution-box {
-            background-image: url("../images/solution.png");
+            background-image: url("../images/solution.webp");
             height: auto;
             padding-top: 70px;
             padding-bottom: 70px;
@@ -1558,25 +1558,25 @@
         .review-01-tb {
             padding: 2.5rem;
             width: 100%;
-            background-image: url("../images/review-01.png");
+            background-image: url("../images/review-01.webp");
         }
 
         .review-02-tb {
             padding: 2.5rem;
             width: 100%;
-            background-image: url("../images/review-02.png");
+            background-image: url("../images/review-02.webp");
         }
 
         .review-03-tb {
             padding: 2.5rem;
             width: 100%;
-            background-image: url("../images/review-03.png");
+            background-image: url("../images/review-03.webp");
         }
 
         .review-04-tb {
             padding: 2.5rem;
             width: 100%;
-            background-image: url("../images/review-04.png");
+            background-image: url("../images/review-04.webp");
         }
 
         .review-caution-tb {
